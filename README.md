@@ -7,6 +7,17 @@ It's an Arduino project for a clock that displays the time in binary and beeps a
 
 This [PiClock](README.md) uses RGB LEDs to display the time.
 
+![Prototype of the RGB LED Pi Clock](PiClocks.jpg)
+
+Thanks to James Rosindell for the picture.
+
+## Prototype
+
+![Pi Clock Prototype side](RgbLeds/PiClockRgbLedsPrototypeSide.jpg)
+![Pi Clock Prototype front](RgbLeds/PiClockRgbLedsPrototypeFront.jpg)
+![Pi Clock Prototype close up](RgbLeds/PiClockRgbLedsPrototypeCloseUp.jpg)
+![Pi Clock Prototype and ApproxyClock prototypes](RgbLeds/PiClockRgbLedsPrototypeAndApproxyClockPrototype.jpg)
+
 ## How to read the time
 
 Determine which LED goes on an off every second. This is LED with index 0. Then the LEDs are ordered clockwise. LEDs 4 and 8 change state every 1 in 5 seconds, to indicate their position.
@@ -69,9 +80,3 @@ This equals: 23:59:59 (hh:mm:ss)
 | minutes   |    |   |   |   | 1  | 2  |   | 8 | 16 | 32 |   |   | Green |
 | hours     | 16 |   |   |   |    |    |   |   | 1  | 2  | 4 | 8 | Blue  |
 
-## Prototype
-
-![Pi Clock Prototype side](RgbLeds/PiClockRgbLedsPrototypeSide.jpg)
-![Pi Clock Prototype front](RgbLeds/PiClockRgbLedsPrototypeFront.jpg)
-![Pi Clock Prototype close up](RgbLeds/PiClockRgbLedsPrototypeCloseUp.jpg)
-![Pi Clock Prototype and ApproxyClock prototypes](RgbLeds/PiClockRgbLedsPrototypeAndApproxyClockPrototype.jpg)
