@@ -2,7 +2,7 @@
 
 ## How do I read the time?
 
-See [how to read the time](HowToReadTheTime.md).
+See [how to read the time](README.md#how-to-read-the-time).
 
 ## Can the PiClock be powered by USB?
 
