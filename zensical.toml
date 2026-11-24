@@ -1,6 +1,6 @@
 [project]
 site_name = "RgbLedPiClock"
-site_url = "https://richelbilderbeek.github.io/rgbledpiclock/"
+site_url = "https://richelbilderbeek.github.io/RgbLedPiClock/"
 repo_url = "https://github.com/richelbilderbeek/RgbLedPiClock"
 edit_uri = "blob/master/docs/"
 
